@@ -1,0 +1,249 @@
+@media screen and (max-width: 768px) {
+    [aria-controls="navbarDropdown"] {
+      display: block;
+    }
+  
+    [aria-expanded="false"] ~ .nav {
+      display: none;
+    }
+  
+    [aria-expanded="true"] ~ .nav {
+      flex-direction: column;
+      background-color: var(--white);
+      flex-direction: column;
+      background-color: var(--white);
+      font-size: var(--size-18);
+      padding: 12rem 0rem;
+      gap: var(--size-20);
+      position: absolute;
+      top: 0;
+      right: 0;
+      left: 0;
+      z-index: -1;
+    }
+  
+    .container {
+      margin-bottom: var(--size-50);
+    }
+  
+    .hero {
+      margin-top: var(--size-80);
+      margin-bottom: var(--size-20);
+      justify-content: center;
+    }
+  
+    .hero-leftside {
+      height: 20rem;
+    }
+  
+    .hero-background {
+      left: 13.75rem;
+    }
+  
+    .hero-leftside,
+    .banner-left,
+    .testimonial-right {
+      text-align: center;
+    }
+  
+    .hero-leftside h1 {
+      width: 100%;
+    }
+    
+    .banner,
+    .testimonial {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  
+    .play-button {
+      left: 23rem;
+    }
+  
+    .testimonial-logo {
+      margin: var(--size-20) auto;
+    }
+  
+    .pricing,
+    .hire-us-section {
+      flex-direction: column;
+    }
+  
+    .hire-us-left {
+      flex-direction: row;
+      padding: var(--size-20) var(--size-30);
+    }
+  
+    .hire-us p {
+      width: 100%;
+    }
+  
+    .footer-primary-right {
+      grid-template-rows: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  
+  @media screen and (max-width: 376px) {
+    .hero-bg {
+      left: -35.625rem;
+    }
+  
+    .hero-leftside h1,
+    .title h2,
+    .banner-left h2 {
+      font-size: 1.625rem;
+      line-height: 2rem;
+    }
+  
+    .hero-right {
+      height: 20rem;
+    }
+  
+    .position-1 {
+      left: 1rem;
+      top: -4.375rem;
+    }
+  
+    .position-2 {
+      left: 7rem;
+      top: -4.375rem;
+    }
+  
+    .position-3 {
+      left: 14.75rem;
+      top:-4.375rem;
+    }
+  
+    .position-4 {
+      left: 1rem;
+      top: 1.75rem;
+    }
+  
+    .position-5 {
+      left: 10.25rem;
+      top: 1.75rem;
+    }
+  
+    .position-6 {
+      left: 6rem;
+      top: 9rem;
+    }
+  
+    .position-7 {
+      left: 13.75rem;
+      top: 9.375rem;
+    }
+  
+    .navbar-nav {
+      flex-direction: column;
+    }
+  
+    .nav-link {
+      padding: var(--size-10);
+    }
+  
+    .nav .button {
+      margin-left: 0;
+    }
+  
+    .nodes-list {
+      grid-template-columns: auto;
+    }
+  
+    .nodes {
+      flex-direction: row;
+    }
+  
+    .line {
+      display: none;
+    }
+  
+    .circle {
+      margin: var(--size-10) var(--size-30);
+    }
+  
+    .banner-two {
+      height: 9.6875rem;
+    }
+  
+    .play-button {
+      left: 9.5rem;
+      top: 2.75rem;
+    }
+  
+    .testimonial {
+      padding-bottom: 0;
+    }
+  
+    .testimonial-profile {
+      width: 16.375rem;
+      height: 18.75rem;
+    }
+  
+    .testimonial-dots {
+      width: 8.8125rem;
+      left: 1rem;
+      top: 3.375rem;
+    }
+  
+    .brands {
+      grid-template-columns: none;
+      justify-content: center;
+    }
+  
+    .brand {
+      width: 12.5rem;
+    }
+  
+    .price {
+      text-align: center;
+    }
+  
+    .plan-testimonials {
+      grid-template-columns: none;
+    }
+  
+    .hire-us-left {
+      flex-direction: column;
+      text-align: center;
+      gap: 0;
+    }
+  
+    .hire-us-right {
+      margin: var(--size-10) 0;
+    }
+  
+    form > .form-info:nth-child(-n+3) {
+      display: block;
+    }
+  
+    .privacy > a:nth-child(1) {
+      display: none;
+    }
+  
+    .footer-primary {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .footer-primary p {
+      font-size: var(--size-18);
+    }
+  
+    .footer-primary h3 {
+      font-size: var(--size-20);
+    }
+  
+    .footer-logo {
+      margin: var(--size-14) auto;
+    }
+  
+    .footer-primary-right {
+      grid-template-columns: auto;
+    }
+  
+    .footer-nav {
+      justify-content: center;
+    }
+  }
